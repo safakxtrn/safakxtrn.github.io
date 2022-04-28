@@ -1,0 +1,187 @@
+#team{
+    width: 1250px;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+    -webkit-transform: scale(0.9);
+    
+}
+
+.teamPage{
+    width: 32%;
+    height: auto;
+    display: inline-block;
+    background-color: white;
+    margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+h3{
+    color: #038ed1;
+}
+
+.subHexa{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+.hexadivTeam{
+    color: white;
+    font-size: 16pt;
+    position: absolute;
+    z-index: 0;
+    font-weight: bold;
+
+    transition: 0.2s;
+    background-color: transparent;
+
+    width: 100%;
+    height: 100%;
+    display: table;
+    
+}
+
+.type1Team{
+    margin-left: -3%;margin-top: 15%;
+}
+.type2Team{
+    margin-left: 28%; margin-top: -10%;
+}
+.type3Team{
+    margin-left: -3%;margin-top: -10%;
+}
+
+.type4Team{
+    background-color: white;
+    
+}
+.type4Team:hover{
+    background-color: white;
+    opacity: 1;
+}
+
+.teamPageH3{
+    text-align: center;
+}
+
+.img1{
+    background-image: url(../images/img1T.png);
+}
+.img2{
+    background-image: url(../images/img2T.png);
+}
+.img3{
+    background-image: url(../images/img3T.png);
+}
+.img4{
+    background-image: url(../images/img4T.png);
+}
+.img5{
+    background-image: url(../images/img5T.png);
+}
+.img6{
+    background-image: url(../images/img6T.png);
+}
+.img7{
+    background-image: url(../images/img7T.png);
+}
+.img8{
+    background-image: url(../images/img8T.png);
+}
+.img9{
+    background-image: url(../images/img9T.png);
+}
+.img10{
+    background-image: url(../images/img10T.png);
+}
+.img11{
+    background-image: url(../images/img11T.png);
+}
+.img12{
+    background-image: url(../images/img12T.png);
+}
+.img13{
+    background-image: url(../images/img13T.png);
+}
+.img14{
+    background-image: url(../images/img14T.png);
+}
+.img15{
+    background-image: url(../images/img15T.png);
+}
+.img16{
+    background-image: url(../images/img16T.png);
+}
+.img17{
+    background-image: url(../images/img17T.png);
+}
+.img18{
+    background-image: url(../images/img18T.png);
+}
+.img19{
+    background-image: url(../images/img19T.png);
+}
+
+.img20{
+    background-image: url(../images/img20T.png);
+}
+
+.img21{
+    background-image: url(../images/img21T.png);
+}
+
+.img22{
+    background-image: url(../images/img22T.png);
+}
+
+.img23{
+    background-image: url(../images/img23T.png);
+}
+
+.img24{
+    background-image: url(../images/img24T.png);
+}
+
+.img25{
+    background-image: url(../images/img25T.png);
+}
+
+.img26{
+    background-image: url(../images/img26T.png);
+}
+.img27{
+    background-image: url(../images/img27T.png);
+}
+
+.img28{
+    background-image: url(../images/img28T.png);
+}
+
+.img29{
+    background-image: url(../images/img29T.png);
+}
+
+.img30{
+    background-image: url(../images/img30T.png);
+}
+
+.img31{
+    background-image: url(../images/img31T.png);
+}
+
+.img32{
+    background-image: url(../images/img32T.png);
+}
+
+.img33{
+    background-image: url(../images/img33T.png);
+}
+.img34{
+    background-image: url(../images/img34T.png);
+}
+.img35{
+    background-image: url(../images/img35T.png);
+}

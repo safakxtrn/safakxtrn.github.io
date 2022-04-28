@@ -1,0 +1,112 @@
+#main {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    -webkit-transform: scale(0.9);
+    margin-bottom: -8%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.mainPage {
+    width: 380px;
+    height: auto;
+    background-color: white;
+    margin: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.type1Main {
+    margin-left: -60px;
+    margin-top: 45px;
+}
+
+.type2Main {
+    margin-left: 70px;
+    margin-top: -260px;
+}
+
+.type3Main {
+    margin-left: 5px;
+    margin-top: -145px;
+}
+
+.type4Main {
+    margin-left: -60px;
+    margin-top: -145px;
+}
+
+.type5Main {
+    margin-left: 135px;
+    margin-top: -260px;
+}
+
+.type6Main {
+    margin-left: 70px;
+    margin-top: -260px;
+}
+
+.type7Main {
+    margin-left: 70px;
+    margin-top: -145px;
+}
+
+.hexadivMain {
+    color: white;
+    font-size: 26pt;
+
+    position: absolute;
+    z-index: 0;
+    font-weight: bold;
+    transition: 0.2s;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    display: table;
+}
+
+.hexaBackgroundMain {
+    background-image: url();
+}
+
+.hexaImageMain {
+    background-size: 180px 168px;
+    background-repeat: no-repeat;
+}
+
+.img13Main {
+    background-image: url(../images/img13H.png);
+    background-size: 72% 95%;
+}
+
+.img14Main {
+    background-image: url(../images/img14H.png);
+    background-size: 90% 110%;
+}
+
+.img15Main {
+    background-image: url(../images/img15H.png);
+    background-size: 90% 105%;
+}
+
+.img16Main {
+    background-image: url(../images/img16H.png);
+    background-size: 90% 105%;
+}
+
+.img17Main {
+    background-image: url(../images/img17H.png);
+    background-size: 90% 105%;
+}
+
+.img18Main {
+    background-image: url(../images/img18H.png);
+    background-size: 90% 105%;
+}

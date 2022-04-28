@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.containerpopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox-popup {
+    display: none;
+}
+
+.containerpopup {
+    display: none;
+    background: #fff;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+#show-popup:checked~.containerpopup {
+    display: block;
+}
+
+.containerpopup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.containerpopup .close-btn:hover {
+    color: #3498db;
+}
+
+.containerpopup .text-popup {
+    font-size: 35px;
+    padding: 30px;
+    text-align: center;
+}
+
+.containerpopup .form-popup {
+    margin-top: -20px;
+}
+
+.containerpopup .form-popup .data-popup {
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.form-popup .data-popup input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+}
+
+.form-popup .data-popup input:focus {
+    border-color: #3498db;
+    border-bottom-width: 2px;
+}
+
+.form-popup .data-popup label {
+    font-size: 18px;
+}
+
+.form-popup .btn-popup {
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-popup .btn-popup .inner-popup {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #038ed1, #038ed1, #038ed1, #038ed1);
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+.form-popup .btn-popup:hover .inner-popup {
+    left: 0;
+}
+
+.form-popup .btn-popup button {
+    height: 100%;
+    width: 100%;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

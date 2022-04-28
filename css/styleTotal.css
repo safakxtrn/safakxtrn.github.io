@@ -1,0 +1,221 @@
+.parentPage {
+    width: 100%;
+    height: auto;
+}
+
+.subPage {
+    width: 95%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headerSubPage {
+    color: #038ed1;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.subHeaderSubPage {
+    color: #038ed1;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.footerHeader {
+    color: #038ed1;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.footerText {
+    color: #038ed1;
+    font-size: 14pt;
+}
+
+.horizontalSpace10 {
+    height: 10px;
+}
+
+.verticalSpacePercent2 {
+    width: 2%;
+    height: auto;
+}
+
+.subPageImage {
+    width: 100%;
+    height: auto;
+}
+
+.textSubPage {
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.parentDiv-1 {
+    display: grid;
+}
+
+.selfCenter {
+    justify-self: center;
+    align-self: center;
+}
+
+.hex-header-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22pt;
+}
+
+.hex-body-text {
+    color: white;
+    text-align: justify;
+    font-size: 13.5pt;
+}
+
+
+#top {
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    z-index: 6;
+    margin-top: -6px;
+}
+
+.navDiv {
+    display: none;
+    background-color: red;
+    width: 100%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#menu {
+    background-color: #038ed1;
+    height: 38px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+}
+
+.borderForm {
+    border: solid 1px #038ed1;
+}
+
+.social-media {
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 4;
+    right: 15px;
+    bottom: 3px;
+}
+
+.social {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+}
+
+.instagram {
+    background-image: url(../images/instagram.png);
+}
+
+.youtube {
+    background-image: url(../images/youtube.png);
+}
+
+.facebook {
+    background-image: url(../images/facebook.png);
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
+.instagram_blue {
+    background-image: url(../images/instagram_blue.png);
+}
+
+.youtube_blue {
+    background-image: url(../images/youtube_blue.png);
+}
+
+.facebook_blue {
+    background-image: url(../images/facebook_blue.png);
+}
+
+.linkedin_blue {
+    background-image: url(../images/linkedin_blue.png);
+}
+
+
+#upImage {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    z-index: 7;
+    border-radius: 50px;
+    margin-left: 48%;
+    background-image: url(../images/fieldtech_logo.png);
+    background-size: cover;
+
+    margin-top: -100px;
+    background-color: white;
+}
+
+#upText {
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin-top: -70px;
+    color: #038ed1;
+    font-size: 13pt;
+    margin-left: 56%;
+}
+
+.buttonStyle {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #038ed1;
+    background-color: white;
+    border: solid 2px #038ed1;
+}
+
+.miniLogo {
+    background-image: url(../images/logo.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 14pt;
+    background-color: transparent;
+    position: relative;
+}
+
+.menu1 {
+    margin-left: 7%;
+    float: left;
+}
+
+.menu2 {
+    margin-right: 5%;
+    float: right;
+}

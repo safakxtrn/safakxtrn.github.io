@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1270px){
+    #team{
+        width: 835px;
+    }
+    .teamPage{
+        width: 48%;
+    }
+
+}
+@media only screen and (max-width: 855px){
+    #team{
+        width: 405px;
+    }
+    .teamPage{
+        width: 99%;
+    }
+
+}

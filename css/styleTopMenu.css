@@ -1,0 +1,76 @@
+.dropbtn {
+  background-color: #038ed1;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3498DB;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 5px;
+  display: none;
+  position: absolute;
+  background-color: #038ed1;
+  min-width: 800px;
+  overflow: auto;
+  z-index: 1;
+  font-size: 15px;
+
+}
+
+.dropdown-content a {
+  padding: 2px 8px;
+  
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: white;
+}
+
+
+.show {display: block;}
+
+.productText1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+}
+
+.productImage{
+    
+    
+    width: 200px;
+    height: 114px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.pImg1{
+    background-image: url(../images/pImg1.png);
+}
+.pImg2{
+    background-image: url(../images/pImg2.png);
+}
+.pImg3{
+    background-image: url(../images/pImg3.png);
+}
+.productDiv{
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
